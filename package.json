@@ -1,5 +1,5 @@
 {
-  "name": "taro-ui-vue",
+  "name": "@youzhej/taro-ui-vue",
   "version": "0.0.9",
   "description": "UI KIT for Taro/vue",
   "browser": "dist/index.umd.js",
@@ -44,7 +44,8 @@
     "prepublish": "npm run build:rollup && node ./config/copy.js",
     "clean": "rimraf dist lib",
     "clog": "conventional-changelog -p angular -i CHANGELOG.md -s -r",
-    "test": "node ./tests/transform-component.js && cross-env NODE_ENV=test && jest --coverage"
+    "test": "node ./tests/transform-component.js && cross-env NODE_ENV=test && jest --coverage",
+    "publish": "npm publish --access=public"
   },
   "browserslist": [
     "last 3 versions",

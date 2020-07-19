@@ -3,6 +3,7 @@ import store from './store'
 import './app.scss'
 // Vue.config.productionTip = false
 // import TaroUi from '../dist'
+import '@tarojs/components'
 import TaroUi from './index'
 Vue.use(TaroUi)
 
